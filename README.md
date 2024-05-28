@@ -22,9 +22,9 @@ A Chrome extension that generates a URL to download ACSM files from archive.org 
 4. Click the "Borrow" button to borrow the book.
 5. Click the extension icon and then the "Download ACSM" button.
 6. The ACSM file will be downloaded automatically.
-7. Install Adobe Digital Editions and open the ACSM file.
+7. Install [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html) and open the ACSM file.
 8. It will download an encrypted PDF to the "Documents/My Digital Editions" folder.
-9. Install Calibre and the NoDRM plugin from [github.com/noDRM](https://github.com/noDRM).
+9. Install [Calibre](https://calibre-ebook.com/download) and the NoDRM plugin from [github.com/noDRM/DeDRM_tools/releases](https://github.com/noDRM/DeDRM_tools/releases).
 10. Drag the PDF into Calibre to remove the DRM.
 
 ## License

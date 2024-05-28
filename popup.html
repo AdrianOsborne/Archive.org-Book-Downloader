@@ -62,15 +62,19 @@
   <h1>Book Downloader</h1>
   <div class="container">
     <div class="steps">
-      <h2>Steps to Download and Decrypt</h2>
-      <p>1. Click the following button.</p>
+      <p>1. Go to <a href="https://archive.org/">archive.org</a>.</p>
+      <p>2. Search for the book you want to borrow.</p>
+      <p>3. Click on the book title to go to its details page.</p>
+      <p>4. Click the "Borrow" button to borrow the book.</p>
+      <p>5. After borrowing, click the following button.</p>
       <button id="generate-url">Download ACSM</button>
-      <p>2. The ACSM file will be downloaded automatically.</p>
-      <p>3. Install Adobe Digital Editions and open the ACSM file.</p>
-      <p>4. It will download an encrypted PDF to the "Documents/My Digital Editions" folder.</p>
-      <p>5. Install Calibre and the NoDRM plugin from <a href="https://github.com/noDRM">github.com/noDRM</a>.</p>
-      <p>6. Drag the PDF into Calibre to remove the DRM.</p>
+      <p>6. The ACSM file will be downloaded automatically.</p>
+      <p>7. Install <a href="https://www.adobe.com/solutions/ebook/digital-editions/download.html" target="_blank">Adobe Digital Editions</a> and open the ACSM file.</p>
+      <p>8. It will download an encrypted PDF to the "Documents/My Digital Editions" folder.</p>
+      <p>9. Install <a href="https://calibre-ebook.com/download" target="_blank">Calibre</a> and the NoDRM plugin from <a href="https://github.com/noDRM/DeDRM_tools/releases" target="_blank">github.com/noDRM/DeDRM_tools/releases</a>.</p>
+      <p>10. Drag the PDF into Calibre to remove the DRM.</p>
     </div>
+    <div id="download-url"></div>
   </div>
   <script src="popup.js"></script>
 </body>
