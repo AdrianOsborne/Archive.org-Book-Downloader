@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Archive.org Book Downloader</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      margin: 0;
+    }
+    .container {
+      padding: 15px;
+    }
+    p {
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #download-url {
+      word-break: break-all;
+      background-color: #e9e9e9;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .steps {
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .steps p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Downloader</h1>
+  <div class="container">
+    <div class="steps">
+      <h2>Steps to Download and Decrypt</h2>
+      <p>1. Click the following button.</p>
+      <button id="generate-url">Download ACSM</button>
+      <p>2. The ACSM file will be downloaded automatically.</p>
+      <p>3. Install Adobe Digital Editions and open the ACSM file.</p>
+      <p>4. It will download an encrypted PDF to the "Documents/My Digital Editions" folder.</p>
+      <p>5. Install Calibre and the NoDRM plugin from <a href="https://github.com/noDRM">github.com/noDRM</a>.</p>
+      <p>6. Drag the PDF into Calibre to remove the DRM.</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
